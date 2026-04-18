@@ -1,4 +1,4 @@
-Day1 18/4/2026
+<img width="2520" height="1680" alt="image" src="https://github.com/user-attachments/assets/bf74b85c-f3b8-4cc5-82ad-f8b583b70e2b" />Day1 18/4/2026
 
 what will we do?
 
@@ -34,3 +34,11 @@ Memory
 
 0xFF00 to 0xFFFsF Input and Output
 
+what i need to do:
+1.finish the Double UART
+2.finish the SPI Screen and the esp32 c3 supermini
+3. finish the eeprom and ram
+4. write a simple bios
+5.write a test program
+6.add a 7segment led output io module
+7.add some controllable pins for further extend
