@@ -1,4 +1,4 @@
-<img width="2520" height="1680" alt="image" src="https://github.com/user-attachments/assets/bf74b85c-f3b8-4cc5-82ad-f8b583b70e2b" />Day1 18/4/2026
+Day1 18/4/2026
 
 what will we do?
 
@@ -42,3 +42,24 @@ what i need to do:
 5.write a test program
 6.add a 7segment led output io module
 7.add some controllable pins for further extend
+
+
+
+
+Day 2 19/4/2026
+OHH YAEAH ITS OUR second day erm unfortunately i  dont really have much time today but nvm lets complete the UART thing first :D
+
+what ive done:
+1.UART
+2.SPI screen
+3.buzzer
+4.Multibanking chip achieved with 573
+what i need to do:
+1. finish the eeprom and ram
+2. write a simple bios
+3. write a test program
+4. add a 7segment led output io module
+5. add some controllable pins for further extend
+6. add status leds
+7. reset,halt,resume button(if needed i guess)
+8. controllable leds to fully utilize the 573 for multi banking
