@@ -63,3 +63,15 @@ what i need to do:
 6. add status leds
 7. reset,halt,resume button(if needed i guess)
 8. controllable leds to fully utilize the 573 for multi banking
+
+Part2
+what ive done:
+1.banking logic (totally)
+2.searching for how z80 interrupt and halt and wait works.
+
+what i need to do:
+write a simple bios
+write a test program
+add some controllable pins for further extend
+add status leds
+reset,halt,resume button(if needed i guess)
