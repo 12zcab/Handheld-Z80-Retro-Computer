@@ -161,3 +161,14 @@ what i need to do:
 1. write a simple bios
 2. write a test program
 3. layout the pcb
+
+Day 4 21/4/2026
+
+what ive done today:
+1.layout the pcb
+2.route the pcb(yah sorry with autoroute cuz my routing technique is kinda bad)
+
+what i need to do:
+1.write a bootloader
+2.write a test program
+3.write a program for esp32 to display serial datas

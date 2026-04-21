@@ -8684,6 +8684,12 @@
 		(uuid "0bd84448-000e-4eaa-a633-876b8c36a865")
 	)
 	(junction
+		(at 271.78 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f8b66d1-4dcf-42f8-a259-1b622b956dc0")
+	)
+	(junction
 		(at 218.44 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8780,6 +8786,12 @@
 		(uuid "20e9c023-056f-4063-8cb0-94d9f600feaf")
 	)
 	(junction
+		(at 271.78 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2154a68c-b574-4783-86ed-a614914ddad1")
+	)
+	(junction
 		(at 370.84 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8858,12 +8870,6 @@
 		(uuid "35596ea4-8881-4eb8-8212-15d2a4d10906")
 	)
 	(junction
-		(at 279.4 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3610b815-5880-4e84-b766-d84b01a1e9a4")
-	)
-	(junction
 		(at 356.87 17.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8934,12 +8940,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ab2f0e4-ae89-44cf-8271-2fe8a317689a")
-	)
-	(junction
-		(at 279.4 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ae155c5-56f4-49e1-89b7-ba85044cd20d")
 	)
 	(junction
 		(at 205.74 85.09)
@@ -9072,12 +9072,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b62d1ac-1a4f-43db-b347-3b888dc07aba")
-	)
-	(junction
-		(at 279.4 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e72d3ac-173d-4cc3-a513-02c0c0cc65d4")
 	)
 	(junction
 		(at 218.44 83.82)
@@ -9248,6 +9242,12 @@
 		(uuid "9049948b-4972-4ce2-92ab-723b165986dd")
 	)
 	(junction
+		(at 271.78 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9323da1f-f27d-4a3b-9e81-71833cd8d2e6")
+	)
+	(junction
 		(at 339.725 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9294,6 +9294,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a5dcde5-d647-4779-b900-a246989f652f")
+	)
+	(junction
+		(at 271.78 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b9f6b68-a1ef-46e2-8fbd-b0c187771c21")
 	)
 	(junction
 		(at 403.86 38.1)
@@ -9434,12 +9440,6 @@
 		(uuid "b890de77-809a-4374-86e4-c41dcaf4413b")
 	)
 	(junction
-		(at 279.4 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba448e96-828e-4aff-a473-7804a2ebd5c1")
-	)
-	(junction
 		(at 349.25 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9468,6 +9468,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2c9e68f-aefc-4614-9dd1-a5d119d93f56")
+	)
+	(junction
+		(at 271.78 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3e4bf40-99cd-4206-9d31-8741d6b819d8")
 	)
 	(junction
 		(at 382.27 76.2)
@@ -9518,12 +9524,6 @@
 		(uuid "d27f246f-384c-4c7a-8106-bc0acc3c105e")
 	)
 	(junction
-		(at 279.4 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d3f592dc-e1b9-46f6-88a1-ac77edeff86c")
-	)
-	(junction
 		(at 354.33 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9566,6 +9566,12 @@
 		(uuid "d74f8a95-5cec-45b9-9151-ba15aa1ee7f6")
 	)
 	(junction
+		(at 271.78 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da0e48eb-a003-4c9a-b8af-9b9ab7bed831")
+	)
+	(junction
 		(at 370.84 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9582,12 +9588,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da8e91ad-7f7e-4ffb-8d96-6fa0e61994b7")
-	)
-	(junction
-		(at 279.4 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd5b98df-d53e-42e3-8494-4b2756634b37")
 	)
 	(junction
 		(at 237.49 148.59)
@@ -11588,16 +11588,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 82.55) (xy 279.4 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00b953d6-95f0-4e15-9655-82f9e6f9f9cc")
-	)
-	(wire
-		(pts
 			(xy 58.42 120.65) (xy 60.96 120.65)
 		)
 		(stroke
@@ -11685,16 +11675,6 @@
 			(type default)
 		)
 		(uuid "03a3f9cb-cbce-4b91-84f2-21b0740e8da4")
-	)
-	(wire
-		(pts
-			(xy 271.78 80.01) (xy 279.4 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03b31cfc-c132-4c3d-9cd5-0f8821527069")
 	)
 	(wire
 		(pts
@@ -12658,16 +12638,6 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 87.63) (xy 279.4 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2901d5d1-b783-47da-945f-29efa14bfd9c")
-	)
-	(wire
-		(pts
 			(xy 233.68 86.36) (xy 236.22 86.36)
 		)
 		(stroke
@@ -13065,16 +13035,6 @@
 			(type default)
 		)
 		(uuid "395cc959-dfe8-40bc-a9a6-98f97e76d2c7")
-	)
-	(wire
-		(pts
-			(xy 279.4 80.01) (xy 279.4 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "399dc5d1-5828-4da9-b741-ce13294c3698")
 	)
 	(wire
 		(pts
@@ -13958,16 +13918,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 85.09) (xy 279.4 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5dfa3f38-9eb7-4db9-af71-532b16ec9e71")
-	)
-	(wire
-		(pts
 			(xy 102.87 133.35) (xy 132.08 133.35)
 		)
 		(stroke
@@ -14008,6 +13958,26 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 74.93) (xy 271.78 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fcb98bb-9cc7-4b13-8fae-2fc20e5134bb")
+	)
+	(wire
+		(pts
+			(xy 271.78 77.47) (xy 271.78 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6086459e-700e-4c5a-830c-ffcf67f2816c")
+	)
+	(wire
+		(pts
 			(xy 130.175 97.79) (xy 132.08 97.79)
 		)
 		(stroke
@@ -14045,6 +14015,16 @@
 			(type default)
 		)
 		(uuid "62f632bb-c9ba-42d6-a35f-0aebf3b90d91")
+	)
+	(wire
+		(pts
+			(xy 271.78 87.63) (xy 271.78 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63408cd1-1384-4a5f-a915-9fde123d1b3d")
 	)
 	(wire
 		(pts
@@ -14095,16 +14075,6 @@
 			(type default)
 		)
 		(uuid "65ab3ef0-f33a-486b-a8cc-944932969112")
-	)
-	(wire
-		(pts
-			(xy 43.18 138.43) (xy 45.72 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65c05ac0-db6c-4c7e-acfa-813e912bccb5")
 	)
 	(wire
 		(pts
@@ -14255,16 +14225,6 @@
 			(type default)
 		)
 		(uuid "6a8f4ce9-afdc-49da-90e9-2db0a21e952e")
-	)
-	(wire
-		(pts
-			(xy 279.4 85.09) (xy 279.4 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a92623e-ff30-4caa-b51a-d1d72f055c8a")
 	)
 	(wire
 		(pts
@@ -14798,16 +14758,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 90.17) (xy 279.4 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ee2e157-a719-404e-82d0-62ec565c60c7")
-	)
-	(wire
-		(pts
 			(xy 340.995 25.4) (xy 349.25 25.4)
 		)
 		(stroke
@@ -14875,16 +14825,6 @@
 			(type default)
 		)
 		(uuid "82b45ef8-e4cb-4b0f-9421-cddac06a04c2")
-	)
-	(wire
-		(pts
-			(xy 271.78 77.47) (xy 279.4 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "831a497e-7962-49f9-a3ce-55e6deb2eb5d")
 	)
 	(wire
 		(pts
@@ -15078,16 +15018,6 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 90.17) (xy 279.4 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e3b6931-e3a4-428c-b1c6-50960000673e")
-	)
-	(wire
-		(pts
 			(xy 377.19 25.4) (xy 384.81 25.4)
 		)
 		(stroke
@@ -15095,16 +15025,6 @@
 			(type default)
 		)
 		(uuid "8e6ae369-e383-40c0-a5b4-d665e50dbab9")
-	)
-	(wire
-		(pts
-			(xy 271.78 87.63) (xy 279.4 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e797bfd-9469-4e6e-b5ee-fd4c4e54f9d6")
 	)
 	(wire
 		(pts
@@ -15638,6 +15558,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 82.55) (xy 271.78 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a82cce1f-46fa-4913-a474-8d2f5c023c1c")
+	)
+	(wire
+		(pts
 			(xy 186.69 212.09) (xy 185.42 212.09)
 		)
 		(stroke
@@ -15978,16 +15908,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 92.71) (xy 279.4 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b53bdd99-964e-48a4-885d-43d2a03d1d8b")
-	)
-	(wire
-		(pts
 			(xy 397.51 76.2) (xy 397.51 102.235)
 		)
 		(stroke
@@ -16248,16 +16168,6 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 74.93) (xy 279.4 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c16427e4-e0ea-4bf9-8233-55ecc8819473")
-	)
-	(wire
-		(pts
 			(xy 67.945 175.26) (xy 44.45 175.26)
 		)
 		(stroke
@@ -16515,6 +16425,16 @@
 			(type default)
 		)
 		(uuid "cd4e849f-5885-4c08-ad48-6fa3646dc845")
+	)
+	(wire
+		(pts
+			(xy 271.78 85.09) (xy 271.78 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd7e5b16-e5de-4166-a269-0119d9bbb78c")
 	)
 	(wire
 		(pts
@@ -16928,16 +16848,6 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 82.55) (xy 279.4 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5595d0e-6576-4cda-98c5-35676cc2d425")
-	)
-	(wire
-		(pts
 			(xy 58.42 92.71) (xy 60.96 92.71)
 		)
 		(stroke
@@ -17025,16 +16935,6 @@
 			(type default)
 		)
 		(uuid "e7d1079a-1d61-4f59-b07c-265918b71700")
-	)
-	(wire
-		(pts
-			(xy 279.4 77.47) (xy 279.4 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8137320-a40d-412e-b78a-c21e594cb8c4")
 	)
 	(bus
 		(pts
@@ -17225,6 +17125,16 @@
 			(type default)
 		)
 		(uuid "ef43e44e-7d3f-40ab-aab9-58be88fc6e9c")
+	)
+	(wire
+		(pts
+			(xy 271.78 80.01) (xy 271.78 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efa2a26a-1eb6-41af-ac56-76704c0d13f2")
 	)
 	(wire
 		(pts
@@ -17485,6 +17395,16 @@
 			(type default)
 		)
 		(uuid "f8e2fc6f-1716-4245-939f-a9dfca74d82e")
+	)
+	(wire
+		(pts
+			(xy 271.78 90.17) (xy 271.78 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f917b5a0-4a44-4ffe-b7b5-6c4f347b5b36")
 	)
 	(wire
 		(pts
@@ -19916,30 +19836,6 @@
 			)
 		)
 	)
-	(global_label "!RESET"
-		(shape bidirectional)
-		(at 33.02 130.81 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "17417550-ad98-4f95-bd4b-c88b162146a7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.5736 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "5V"
 		(shape bidirectional)
 		(at 95.25 151.13 0)
@@ -20033,6 +19929,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "!RESET"
+		(shape bidirectional)
+		(at 33.02 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d54a614-6880-46e8-a857-b8b6dc1b42d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.5736 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -20249,30 +20169,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 279.4 74.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "52b943f3-0d02-4e77-8f79-b92bfee20c05")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 286.2557 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -20948,6 +20844,30 @@
 			)
 		)
 	)
+	(global_label "5V"
+		(shape input)
+		(at 271.78 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "84cd7bd8-9391-42d5-a201-a9181f5eceb1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.0633 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 113.03 123.19 180)
@@ -21089,6 +21009,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "!RESET"
+		(shape bidirectional)
+		(at 55.88 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8dfdf646-6919-48aa-b974-8868441e6e1c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.3264 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -22723,7 +22667,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 267.97 85.09 180)
+		(at 267.97 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22734,7 +22678,7 @@
 		(fields_autoplaced yes)
 		(uuid "03271c1f-3389-44f4-bacb-9af7ba525a7c")
 		(property "Reference" "D15"
-			(at 269.5575 91.44 0)
+			(at 266.3825 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22745,7 +22689,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 269.5575 88.9 0)
+			(at 266.3825 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24553,7 +24497,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 267.97 80.01 180)
+		(at 267.97 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24564,7 +24508,7 @@
 		(fields_autoplaced yes)
 		(uuid "250cc7ef-cf0c-4962-9ca8-64a076afa322")
 		(property "Reference" "D9"
-			(at 269.5575 86.36 0)
+			(at 266.3825 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24575,7 +24519,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 269.5575 83.82 0)
+			(at 266.3825 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24585,7 +24529,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 267.97 80.01 0)
+			(at 267.97 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24596,7 +24540,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 80.01 0)
+			(at 267.97 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24607,7 +24551,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 267.97 80.01 0)
+			(at 267.97 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24618,7 +24562,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 267.97 80.01 0)
+			(at 267.97 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24856,7 +24800,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 267.97 90.17 180)
+		(at 267.97 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24867,7 +24811,7 @@
 		(fields_autoplaced yes)
 		(uuid "29ec9348-a179-4000-9d69-d1e126c51d04")
 		(property "Reference" "D21"
-			(at 269.5575 96.52 0)
+			(at 266.3825 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24878,7 +24822,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 269.5575 93.98 0)
+			(at 266.3825 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24888,7 +24832,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 267.97 90.17 0)
+			(at 267.97 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24899,7 +24843,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 90.17 0)
+			(at 267.97 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24910,7 +24854,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 267.97 90.17 0)
+			(at 267.97 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24921,7 +24865,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 267.97 90.17 0)
+			(at 267.97 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25417,7 +25361,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "28C256"
+		(property "Value" "28C256 Additional"
 			(at 115.1733 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29683,87 +29627,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 38.1 138.43 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84104683-fb35-4ded-bd57-dc2e69437dba")
-		(property "Reference" "SW65"
-			(at 38.1 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 38.1 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 38.1 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 38.1 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "fc6ef1af-5878-45e6-93c5-146297de54e6")
-		)
-		(pin "1"
-			(uuid "a61dc9cf-88ef-4ea4-b40b-84b4174b930b")
-		)
-		(instances
-			(project "z80handheld"
-				(path "/8f7bf91a-544f-4b21-b53f-d26c5f4e4826"
-					(reference "SW65")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 229.87 106.68 0)
 		(unit 1)
@@ -31943,7 +31806,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 267.97 87.63 180)
+		(at 267.97 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31954,7 +31817,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5c1e36c-8a69-40a9-bc25-d9f83cfdf418")
 		(property "Reference" "D18"
-			(at 269.5575 93.98 0)
+			(at 266.3825 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31965,7 +31828,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 269.5575 91.44 0)
+			(at 266.3825 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31975,7 +31838,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 267.97 87.63 0)
+			(at 267.97 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31986,7 +31849,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 87.63 0)
+			(at 267.97 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31997,7 +31860,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 267.97 87.63 0)
+			(at 267.97 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32008,7 +31871,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 267.97 87.63 0)
+			(at 267.97 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32035,7 +31898,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 267.97 82.55 180)
+		(at 267.97 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32046,7 +31909,7 @@
 		(fields_autoplaced yes)
 		(uuid "a77892c5-b2d8-4bd0-bc38-f91e8b28ca83")
 		(property "Reference" "D12"
-			(at 269.5575 88.9 0)
+			(at 266.3825 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32057,7 +31920,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 269.5575 86.36 0)
+			(at 266.3825 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32067,7 +31930,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 267.97 82.55 0)
+			(at 267.97 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32078,7 +31941,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 82.55 0)
+			(at 267.97 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32089,7 +31952,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 267.97 82.55 0)
+			(at 267.97 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32100,7 +31963,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 267.97 82.55 0)
+			(at 267.97 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34067,7 +33930,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 267.97 77.47 180)
+		(at 267.97 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34078,7 +33941,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf8cd787-ebf0-4d62-9069-f459c64e66b7")
 		(property "Reference" "D6"
-			(at 269.5575 83.82 0)
+			(at 266.3825 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34089,7 +33952,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 269.5575 81.28 0)
+			(at 266.3825 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34099,7 +33962,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 267.97 77.47 0)
+			(at 267.97 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34110,7 +33973,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 77.47 0)
+			(at 267.97 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34121,7 +33984,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 267.97 77.47 0)
+			(at 267.97 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34132,7 +33995,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 267.97 77.47 0)
+			(at 267.97 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35311,7 +35174,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 267.97 92.71 180)
+		(at 267.97 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -35322,7 +35185,7 @@
 		(fields_autoplaced yes)
 		(uuid "e393f028-3908-4cbd-afd8-4c7d6f0ab278")
 		(property "Reference" "D24"
-			(at 269.5575 99.06 0)
+			(at 266.3825 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35333,7 +35196,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 269.5575 96.52 0)
+			(at 266.3825 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35343,7 +35206,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 267.97 92.71 0)
+			(at 267.97 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35354,7 +35217,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 92.71 0)
+			(at 267.97 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35365,7 +35228,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 267.97 92.71 0)
+			(at 267.97 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35376,7 +35239,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 267.97 92.71 0)
+			(at 267.97 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36698,6 +36561,87 @@
 			(project "z80handheld"
 				(path "/8f7bf91a-544f-4b21-b53f-d26c5f4e4826"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 50.8 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa56c5d1-01d4-48b3-b62b-c30d4b9f6986")
+		(property "Reference" "SW65"
+			(at 50.8 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 50.8 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 50.8 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 50.8 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9174492d-7d8e-4e5c-85b1-51ab15931bf9")
+		)
+		(pin "1"
+			(uuid "d4472594-160e-4cb9-ad80-e6783615594b")
+		)
+		(instances
+			(project "z80handheld"
+				(path "/8f7bf91a-544f-4b21-b53f-d26c5f4e4826"
+					(reference "SW65")
 					(unit 1)
 				)
 			)
