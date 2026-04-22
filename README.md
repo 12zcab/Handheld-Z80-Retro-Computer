@@ -26,5 +26,8 @@ I recently found Fallout Event on HackClub and instantly found this a great oppe
 |0x0000 - 0x7FFF| EEPROM | Executable Code of Operating System |
 |0x8000 - 0xFEFF| RAM or EEPROM | Multibanked External EEPROM and RAM |
 |0xFF00 - 0xFFFF| IO Outputs | for Output,UART,and also other Extension Usage |
+|----|----|----|
+
+
 --Compoenents Used--
 | Name | Usage | Quantity |
