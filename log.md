@@ -172,3 +172,10 @@ what i need to do:
 1.write a bootloader
 2.write a test program
 3.write a program for esp32 to display serial datas
+
+Day 5 22/4/2026
+
+what ive done today:
+1.rerouted the pcb (bruh the autoroute is terrible)
+2.added the extension port
+3.wrote something on the README.md
