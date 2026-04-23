@@ -176,6 +176,12 @@ what i need to do:
 Day 5 22/4/2026
 
 what ive done today:
-1.rerouted the pcb (bruh the autoroute is terrible)
+1.rerouted the pcb (bruh Freeroute is terrible)
 2.added the extension port
 3.wrote something on the README.md
+
+Day 6 22/4/2026
+
+what ive done today:
+1.edited the README.md to add the components list
+2.autorouted AGAIIINNN with Electra and THATS WAS AMAZING OMG ITS SOOOOO COOL

@@ -509,7 +509,7 @@
       "idf": "",
       "netlist": "",
       "plot": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "z80handheld.dsn",
       "vrml": ""
     },
     "page_layout_descr_file": ""
