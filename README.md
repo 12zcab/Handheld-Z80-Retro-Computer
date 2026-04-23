@@ -20,7 +20,7 @@ I recently found Fallout Event on HackClub and instantly found this a great oppe
 
 
 # Basic Structure
---Memory Map--
+##Memory Map
 | Address | Compoenent | Function |
 |----|----|----|
 |0x0000 - 0x7FFF| EEPROM | Executable Code of Operating System |
@@ -29,9 +29,9 @@ I recently found Fallout Event on HackClub and instantly found this a great oppe
 |----|----|----|
 
 
---Compoenents Used--
+# Compoenents
 
-# Main Compoenents
+## Main Compoenents
 | Name | Usage | Quantity |
 |----|----|----|
 | Z84C00xxP | The CPU of the Computer | 1 |
@@ -47,7 +47,7 @@ I recently found Fallout Event on HackClub and instantly found this a great oppe
 | Buzzer | D12mm height 9.5mm with RM7.6mm Buzzer for ESP32 C3 Supermini to Emit sound when receive specific serial input from Z80 | 1 |
 | CR2032 battery holder | Battery for DS12885+ Clock Module | 1 |
 
-# Logic Gates and ICs
+## Logic Gates and ICs
 | Name | Usage | Quantity |
 |----|----|----|
 | 74HC573 | A Registor for Input and Output and Multibanking | 5 |
@@ -56,13 +56,13 @@ I recently found Fallout Event on HackClub and instantly found this a great oppe
 | 74154 | 4 to 16 Decoder for IOS Address Decoding | 1 |
 | 74AHCT1G32 | Single Or Gate | 2 |
 
-# Crystals
+## Crystals
 | Name | Usage | Quantity |
 |----|----|----|
 | 4 Pin Crystals | 20MHz and 1.8432MHz for CPU and UART ic respectively | 2 |
 | 2 Pin Crystal | 32768Hz for DS12885+ Clock Module | 1 |
 
-# Resistors
+## Resistors
 | Name | Usage | Quantity |
 |----|----|----|
 | 1K resistor | 7 segment display resistor to prevent the display BURn :D | 2 |
