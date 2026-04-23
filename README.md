@@ -30,4 +30,40 @@ I recently found Fallout Event on HackClub and instantly found this a great oppe
 
 
 --Compoenents Used--
+
+# Main Compoenents
 | Name | Usage | Quantity |
+|----|----|----|
+| Z84C00xxP | The CPU of the Computer | 1 |
+| ESP32 C3 Supermini | The Micro Controller Board for Serial Output Processing | 1 |
+| 3.5inch SPI Screen 14Pin| For Displaying Serial Output | 1 |
+| 62256 | 32k RAM for Z80 | 1 |
+| 28C256 | 32k EEPROM for External file and Bootloader and Applications | 2 |
+| HDSP-7501 | 7 Segment Display for Z80 Output | 2 |
+| 16550 | UART Communication IC for Z80 IO | 2 |
+| PTS 810 SMD Button | Keyboard Input for Z80 | 64 |
+| 4 Pin 6mm Switch | Reset Button for Z80 | 1 |
+| LED SMD 1206 | SMD LED with internal resistor for Signal and Data Bus displaying | 39 |
+| Buzzer | D12mm height 9.5mm with RM7.6mm Buzzer for ESP32 C3 Supermini to Emit sound when receive specific serial input from Z80 | 1 |
+| CR2032 battery holder | Battery for DS12885+ Clock Module | 1 |
+
+# Logic Gates and ICs
+| Name | Usage | Quantity |
+|----|----|----|
+| 74HC573 | A Registor for Input and Output and Multibanking | 5 |
+| 74HC04 | Hex Logic Invertor for toggling High-Activate Signals and Low-Activate Signals | 2 |
+| 4068 | 8 Input AND/NAND Logic Gate for IO Signal Filtering | 1 |
+| 74154 | 4 to 16 Decoder for IOS Address Decoding | 1 |
+| 74AHCT1G32 | Single Or Gate | 2 |
+
+# Crystals
+| Name | Usage | Quantity |
+|----|----|----|
+| 4 Pin Crystals | 20MHz and 1.8432MHz for CPU and UART ic respectively | 2 |
+| 2 Pin Crystal | 32768Hz for DS12885+ Clock Module | 1 |
+
+# Resistors
+| Name | Usage | Quantity |
+|----|----|----|
+| 1K resistor | 7 segment display resistor to prevent the display BURn :D | 2 |
+| 10K resistor | Pull-up Resistors | 4 |
