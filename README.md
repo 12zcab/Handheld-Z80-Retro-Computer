@@ -7,7 +7,7 @@ The computer support Dual-UART communication, one with the Esp32 and one for ext
 # What it does?
 It just let you run simple programs on it and let you bring it anywhere!
 My final goal is to write a fully functional Operating System and make it as simple as possible on this computer!
-With the ESP32 C3 Supermini connected through UART,you can draw on SPI screen and output characters just like connected to a Terminal (for old computers)
+With the ESP32 C3 Supermini connected through UART,you can draw on SPI screen and output characters just like connected to a VT100 Terminal (for old computers)
 With the Buzzer,7segments and the keyboard also with the extendable port,you can build alsome retro coding projects on this old-fashion Cyberdeck :D
 # Why it exists?
 Erm it all started when I found a video about old pokemon games and i started to play Gen 1 pokemon games on emulators(Red Version).
