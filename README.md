@@ -37,6 +37,7 @@ I recently found Fallout Event on HackClub and instantly found this a great oppe
 | Z84C00xxP | The CPU of the Computer | 1 |
 | ESP32 C3 Supermini | The Micro Controller Board for Serial Output Processing | 1 |
 | 3.5inch SPI Screen 14Pin| For Displaying Serial Output | 1 |
+| DS12885+ Clock Module | Clock Module For Z80 | 1 |
 | 62256 | 32k RAM for Z80 | 1 |
 | 28C256 | 32k EEPROM for External file and Bootloader and Applications | 2 |
 | HDSP-7501 | 7 Segment Display for Z80 Output | 2 |
