@@ -10373,6 +10373,12 @@
 		(uuid "2d6db156-406f-43d0-8491-610d1f5f4bcc")
 	)
 	(junction
+		(at 158.75 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f082195-8e33-4be5-acd7-6797ba514495")
+	)
+	(junction
 		(at 375.92 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11121,12 +11127,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ddf55295-19eb-428e-87a3-b07be9423d47")
-	)
-	(junction
-		(at 158.75 234.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "df119885-703f-4830-af4c-014ae6fd6991")
 	)
 	(junction
 		(at 377.19 63.5)
@@ -25463,6 +25463,123 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx:74HC04")
+		(at 151.13 234.95 180)
+		(unit 5)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02b251ae-eef8-4b67-8e1c-e30dda7d39b4")
+		(property "Reference" "U3"
+			(at 151.13 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC04"
+			(at 151.13 228.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 151.13 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+			(at 151.13 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 151.13 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "12"
+			(uuid "2eb95428-fa5a-42b7-a249-197811e3e163")
+		)
+		(pin "14"
+			(uuid "cafc347f-6864-4573-be95-6cdb7216f0c2")
+		)
+		(pin "2"
+			(uuid "41f1c088-cf61-4d80-8a7c-34de5c71b046")
+		)
+		(pin "13"
+			(uuid "ef77bddf-11c9-4b44-8ff0-0af0f5e32a98")
+		)
+		(pin "3"
+			(uuid "1ca8fa9a-ba1d-4709-9dff-d2ede447818f")
+		)
+		(pin "4"
+			(uuid "bd9266dc-c4b7-417c-9a77-a798bef03a60")
+		)
+		(pin "5"
+			(uuid "e0484333-da57-4b38-b5cc-33d64ed80953")
+		)
+		(pin "9"
+			(uuid "8ae8f9db-5bfd-4df8-b9aa-b8fae6658fb4")
+		)
+		(pin "1"
+			(uuid "9605dbbb-5b96-4bd2-94e2-1e7d33514985")
+		)
+		(pin "6"
+			(uuid "25fe0866-60a7-4188-9ce7-099dea8a59c6")
+		)
+		(pin "10"
+			(uuid "a29c5482-8f79-42fd-aa01-59711512f036")
+		)
+		(pin "11"
+			(uuid "1344caed-a91e-4198-b045-b29a6f3ca486")
+		)
+		(pin "8"
+			(uuid "2dd67506-27f1-4347-b487-e125cbd19251")
+		)
+		(pin "7"
+			(uuid "4e9f42f3-5cca-484e-9abe-48b638900728")
+		)
+		(instances
+			(project "z80handheld"
+				(path "/8f7bf91a-544f-4b21-b53f-d26c5f4e4826"
+					(reference "U3")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 267.97 85.09 0)
 		(unit 1)
@@ -26216,123 +26333,6 @@
 				(path "/8f7bf91a-544f-4b21-b53f-d26c5f4e4826"
 					(reference "SW61")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74HC04")
-		(at 151.13 234.95 0)
-		(unit 5)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1064f711-f86b-4a62-b20c-729f91b71edc")
-		(property "Reference" "U3"
-			(at 151.13 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC04"
-			(at 151.13 228.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 151.13 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
-			(at 151.13 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Hex Inverter"
-			(at 151.13 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "12"
-			(uuid "2eb95428-fa5a-42b7-a249-197811e3e163")
-		)
-		(pin "14"
-			(uuid "cafc347f-6864-4573-be95-6cdb7216f0c2")
-		)
-		(pin "2"
-			(uuid "41f1c088-cf61-4d80-8a7c-34de5c71b046")
-		)
-		(pin "13"
-			(uuid "ef77bddf-11c9-4b44-8ff0-0af0f5e32a98")
-		)
-		(pin "3"
-			(uuid "1ca8fa9a-ba1d-4709-9dff-d2ede447818f")
-		)
-		(pin "4"
-			(uuid "bd9266dc-c4b7-417c-9a77-a798bef03a60")
-		)
-		(pin "5"
-			(uuid "e0484333-da57-4b38-b5cc-33d64ed80953")
-		)
-		(pin "9"
-			(uuid "8ae8f9db-5bfd-4df8-b9aa-b8fae6658fb4")
-		)
-		(pin "1"
-			(uuid "9605dbbb-5b96-4bd2-94e2-1e7d33514985")
-		)
-		(pin "6"
-			(uuid "25fe0866-60a7-4188-9ce7-099dea8a59c6")
-		)
-		(pin "10"
-			(uuid "12ad5fdf-5d84-4056-9cd9-09b42732e178")
-		)
-		(pin "11"
-			(uuid "ca57adef-47f3-49c4-bc57-1e6a3defad0c")
-		)
-		(pin "8"
-			(uuid "2dd67506-27f1-4347-b487-e125cbd19251")
-		)
-		(pin "7"
-			(uuid "4e9f42f3-5cca-484e-9abe-48b638900728")
-		)
-		(instances
-			(project "z80handheld"
-				(path "/8f7bf91a-544f-4b21-b53f-d26c5f4e4826"
-					(reference "U3")
-					(unit 5)
 				)
 			)
 		)

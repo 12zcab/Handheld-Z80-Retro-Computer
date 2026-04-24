@@ -508,7 +508,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerber and Drills/",
       "specctra_dsn": "z80handheld.dsn",
       "vrml": ""
     },

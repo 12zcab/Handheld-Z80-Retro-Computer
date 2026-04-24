@@ -180,8 +180,14 @@ what ive done today:
 2.added the extension port
 3.wrote something on the README.md
 
-Day 6 22/4/2026
+Day 6 23/4/2026
 
 what ive done today:
 1.edited the README.md to add the components list
 2.autorouted AGAIIINNN with Electra and THATS WAS AMAZING OMG ITS SOOOOO COOL
+
+Day 7 24/4/2026
+
+what ive done today:
+1.Wrote file for Programming on the Computer.
+2.Fixed a wiring problem on PCB(Not Logic Gate Inverted for the interrupt Signal 16550) and reroute the wiring again.
