@@ -2,6 +2,8 @@ Hello Im 12zcab from Hong Kong and I designed this Z80 Retro Computer :DD
 
 For FallOut Zine Page Design: https://www.figma.com/design/0DzeSIebLkugrNq00bVcSF/Untitled?node-id=0-1&t=Gd1BAF2dvagKk23V-1
 (the image will be filled in later after i build it in real life.)
+
+
 # What is this?
 This is a portable handheld computer made with z80 customized for assembly language programming and simplified system for educational purpose.
 The computer comtains a Z80 cpu,a SPI screen,a Esp32 C3 Supermini and 2 EEPROM slot,a RAM slot,a buzzer,some leds,2 7segments and a extendable port for IO.
