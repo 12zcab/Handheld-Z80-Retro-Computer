@@ -299,6 +299,7 @@ OUT (RIGHT_SEVEN_SEG),A
 # Extend IO Port Programming
 The extend IO Port(2.54 Connector PinHead 40pin)
 | PinNum.(From left to right,Start from 1) | PinName |
+| ---- | ---- | ---- |
 | 1 | 5V |
 | 2 | GND |
 | 3 | TX2 |
