@@ -1,0 +1,24 @@
+Type,Component Name,Usage,Quantity
+Main Component,Z84C00xxP,The CPU of the Computer,1
+Main Component,ESP32 C3 Supermini,The Micro Controller Board for Serial Output Processing,1
+Main Component,3.5inch SPI Screen 14Pin,For Displaying Serial Output,1
+Main Component,DS12885+ Clock Module,Clock Module For Z80,1
+Main Component,62256,32k RAM for Z80,1
+Main Component,28C256,32k EEPROM for External file and Bootloader and Applications,2
+Main Component,HDSP-7501,7 Segment Display for Z80 Output,2
+Main Component,16550 UART,Communication IC for Z80 IO,2
+Main Component,PTS 810 SMD Button,Keyboard Input for Z80,64
+Main Component,4 Pin 6mm Switch,Reset Button for Z80,1
+Main Component,LED SMD 1206,SMD LED with internal resistor for Signal and Data Bus displaying,39
+Main Component,Buzzer D12mm,Buzzer for ESP32 C3 to Emit sound,1
+Main Component,CR2032 battery holder,Battery for DS12885+ Clock Module,1
+Logic IC,74HC573,A Register for Input and Output and Multibanking,5
+Logic IC,74HC04,Hex Logic Invertor for toggling High/Low Signals,2
+Logic IC,4068,8 Input AND/NAND Logic Gate for IO Signal Filtering,1
+Logic IC,74154,4 to 16 Decoder for IOS Address Decoding,1
+Logic IC,74AHCT1G32,Single Or Gate,2
+Crystal,4 Pin Crystal 20MHz,CPU Clock,1
+Crystal,4 Pin Crystal 1.8432MHz,UART Clock,1
+Crystal,2 Pin Crystal 32768Hz,For DS12885+ Clock Module,1
+Resistor,1K resistor,7 segment display resistor,2
+Resistor,10K resistor,Pull-up Resistors,4
