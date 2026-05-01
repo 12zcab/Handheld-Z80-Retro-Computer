@@ -191,3 +191,15 @@ Day 7 24/4/2026
 what ive done today:
 1.Wrote file for Programming on the Computer.
 2.Fixed a wiring problem on PCB(Not Logic Gate Inverted for the interrupt Signal 16550) and reroute the wiring again.
+
+Day 8 25/4/2026
+
+what ive done today:
+1.Finished the Programmer Manual
+
+Day 9 1/5/2026
+
+what ive done today:
+1.Simplified the Multibank Circuit (Reduced SMD usage)
+2.Rerouted the pcb again for the modification made
+(I Tried EAGLE,AutoRoute,and even asked Ai to help me write a simple autoroute application but erm in the end i used electra :| electra is amazing...)

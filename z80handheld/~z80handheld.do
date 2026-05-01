@@ -1,17 +1,12 @@
 #
-# DO file created by ELECTRA V10.09 made 04/24/2026 at 22:22:29
+# DO file created by ELECTRA V4.18 made 05/01/2026 at 18:11:02
 # 
-setr straight_pattern 1
-setr l_pattern 1
-setr ldiag_pattern 1
-setr z_pattern 1
-setr strategy 0
-tax via 0.5
-
-toggle_direction off
-fanout 5
-route 20 1
+bus diagonal
+fanout 5 (direction out)
+route 10
+clean 2
+route 10 16
 clean 2
 filter 5
 recorner diagonal
-report status
+status_file
