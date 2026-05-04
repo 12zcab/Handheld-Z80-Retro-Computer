@@ -203,3 +203,11 @@ what ive done today:
 1.Simplified the Multibank Circuit (Reduced SMD usage)
 2.Rerouted the pcb again for the modification made
 (I Tried EAGLE,AutoRoute,and even asked Ai to help me write a simple autoroute application but erm in the end i used electra :| electra is amazing...)
+
+Day 10 3/5/2026
+
+what ive done today:
+Wrote a Script for the Video
+Updated the BOM list
+Updated the Documentation
+Started to create the project video

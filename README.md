@@ -61,7 +61,7 @@ I recently found Fallout Event on HackClub and instantly found this a great oppe
 | 74HC04 | Hex Logic Invertor for toggling High-Activate Signals and Low-Activate Signals | 2 |
 | 4068 | 8 Input AND/NAND Logic Gate for IO Signal Filtering | 1 |
 | 74154 | 4 to 16 Decoder for IOS Address Decoding | 1 |
-| 74AHCT1G32 | Single Or Gate | 2 |
+| 74HC00 | Quad NAND Gate | 2 |
 
 ## Crystals
 | Name | Usage | Quantity |
