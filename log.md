@@ -211,3 +211,7 @@ Wrote a Script for the Video
 Updated the BOM list
 Updated the Documentation
 Started to create the project video
+
+Day 11 12 4/5/2026 and 5/5/2026
+
+Human Reroute again and again :D
