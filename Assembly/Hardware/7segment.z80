@@ -1,6 +1,6 @@
 LEFT_SEVEN_SEG  EQU 0xFF50
 RIGHT_SEVEN_SEG EQU 0xFF60
-
+    ld SP,$FE00    ;Initialize the Stack incase if its not yet initialized
     ld b, 0x43
     call Output7Segment
     halt
