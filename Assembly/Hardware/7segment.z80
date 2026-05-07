@@ -1,0 +1,48 @@
+LEFT_SEVEN_SEG  EQU 0xFF50
+RIGHT_SEVEN_SEG EQU 0xFF60
+
+Output7Segment:
+    ; --- Save registers to Stack ---
+    push af
+    push bc
+    push hl
+    ; --- Handle Right Digit (Lower Nibble) ---
+    ld a, b
+    and 0x0F
+    ld hl, Data7Segment
+    add a, l
+    ld l, a
+    jr nc, no_carry1
+    inc h
+no_carry1:
+    ld a, (hl)
+    ld bc, RIGHT_SEVEN_SEG
+    out (c), a
+    ; --- Handle Left Digit (Upper Nibble) ---
+    ld a, b
+    rrca
+    rrca
+    rrca
+    rrca
+    and 0x0F
+    ld hl, Data7Segment
+    add a, l
+    ld l, a
+    jr nc, no_carry2
+    inc h
+no_carry2:
+    ld a, (hl)
+    ld bc, LEFT_SEVEN_SEG
+    out (c), a
+    ; --- Restore registers from Stack (Reverse Order) ---
+    pop hl
+    pop bc
+    pop af
+    ret
+
+
+Data7Segment: 
+    .db 0xC0, 0xF9, 0xA4, 0xB0 ; 0, 1, 2, 3
+    .db 0x99, 0x92, 0x82, 0xF8 ; 4, 5, 6, 7
+    .db 0x80, 0x90, 0x88, 0x83 ; 8, 9, A, B
+    .db 0xC6, 0xA1, 0x86, 0x8E ; C, D, E, F
