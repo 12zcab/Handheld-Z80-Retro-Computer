@@ -215,3 +215,6 @@ Started to create the project video
 Day 11 12 4/5/2026 and 5/5/2026
 
 Human Reroute again and again :D
+
+Day 13 7/5/2026
+Wrote some assembly for Memory loading and 7 segment output and searched for how to write those assembly and tested on ASM80.com
