@@ -1,6 +1,10 @@
 LEFT_SEVEN_SEG  EQU 0xFF50
 RIGHT_SEVEN_SEG EQU 0xFF60
 
+    ld b, 0x43
+    call Output7Segment
+    halt
+
 Output7Segment:
     ; --- Save registers to Stack ---
     push af
@@ -41,7 +45,7 @@ no_carry2:
     ret
 
 
-Data7Segment: 
+Data7Segment:
     .db 0xC0, 0xF9, 0xA4, 0xB0 ; 0, 1, 2, 3
     .db 0x99, 0x92, 0x82, 0xF8 ; 4, 5, 6, 7
     .db 0x80, 0x90, 0x88, 0x83 ; 8, 9, A, B
