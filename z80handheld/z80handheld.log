@@ -1,0 +1,49 @@
+Writing all output to: C:\Users\user\Documents\z80handheld\z80handheld\z80handheld.log
+ unit um
+source {C:/Users/user/Documents/z80handheld/z80handheld/~z80handheld.do}
+ bus diagonal
+ fanout 5 (direction out)
+ route 10
+ clean 2
+ route 10 16
+ clean 2
+ filter 5
+ recorner diagonal
+ status_file
+
+____________________________________________________________________________________________
+ELECTRA Version  4.18
+Design        = C:\Users\user\Documents\z80handheld\z80handheld\z80handheld.dsn
+Report Time   = 18:11:25
+Nets          =      152
+Components    =      139
+Connections   =      712
+Vias          =      413
+Routed Length = 15508622.9 um
+Signal Layers =        2
+Power Layers  =        0
+Total Pins    =      864
+Completion    =  100.00%
+Unroutes      =        0
+Routing Time  = 00:00:23
+
+____________________________________________________________________________________________
+|     |          |        |        |        |        |        |        |         |         |
+|  #  |   Pass   | Shorts |DRC Errs|Failures|Unroutes|  Vias  |  Reduc |  Time   |  Total  |
+|_____|__________|________|________|________|________|________|________|_________|_________|
+|    0| Bus      |       0|       0|      74|     531|       0|        |  0:00:00|  0:00:00|
+|    1| Fanout   |       0|       0|       0|     531|     182|        |  0:00:03|  0:00:03|
+|    2| Route    |     593|       5|       0|       0|     210|       0|  0:00:02|  0:00:05|
+|    3| Route    |     324|       0|       0|       0|     257|      45|  0:00:02|  0:00:07|
+|    4| Route    |     138|       1|       0|       0|     329|      57|  0:00:03|  0:00:10|
+|    5| Route    |      39|       2|       0|       0|     416|      70|  0:00:02|  0:00:12|
+|    6| Route    |       6|       2|       0|       0|     466|      80|  0:00:01|  0:00:13|
+|    7| Route    |       0|       0|       0|       0|     473|     100|  0:00:00|  0:00:13|
+|    8| Clean    |       0|       0|      13|       0|     440|        |  0:00:03|  0:00:16|
+|    9| Clean    |       0|       0|      17|       0|     426|        |  0:00:02|  0:00:18|
+|   10| Route    |       0|       0|       0|       0|     426|       0|  0:00:00|  0:00:18|
+|   11| Clean    |       0|       0|       9|       0|     430|        |  0:00:03|  0:00:21|
+|   12| Clean    |       0|       0|      13|       0|     413|        |  0:00:02|  0:00:23|
+|   13| Filter   |       0|       0|       0|       0|     413|       0|  0:00:00|  0:00:23|
+|   13| Recorner |       0|       0|       0|       0|       0|        |  0:00:00|  0:00:23|
+|_____|__________|________|________|________|________|________|________|_________|_________|
