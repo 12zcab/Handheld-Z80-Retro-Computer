@@ -218,3 +218,12 @@ Human Reroute again and again :D
 
 Day 13 7/5/2026
 Wrote some assembly for Memory loading and 7 segment output and searched for how to write those assembly and tested on ASM80.com
+
+Day 14-15 8/5/2026 9/5/2026
+Continued to route the PCB
+
+Day 16 11/5/2026
+I realized the layout that I designed for the PCB was already wrong from the start...
+the Layout is too terrible and too hard to route (why there are so many signals wiring that need to be routed across the whole board XDDDDDD)
+Yah I redesigned the layout and i think now the layout is much more cleaner :D
+the Interrupt Signals and the ReadWriteChipSelect signals are still hard to route though but the Data buses and Address buses are much better :D
