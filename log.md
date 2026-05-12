@@ -227,3 +227,6 @@ I realized the layout that I designed for the PCB was already wrong from the sta
 the Layout is too terrible and too hard to route (why there are so many signals wiring that need to be routed across the whole board XDDDDDD)
 Yah I redesigned the layout and i think now the layout is much more cleaner :D
 the Interrupt Signals and the ReadWriteChipSelect signals are still hard to route though but the Data buses and Address buses are much better :D
+
+Day 17 12/5/2026
+humm actually the current layout is still not yet the best one but i think i will keep the current one and try to add more space for me to route by pushing a bit the edges :D
