@@ -3,8 +3,8 @@ Hello Im 12zcab from Hong Kong and I designed this Z80 Retro Computer :DD
 For FallOut Zine Page Design: https://www.figma.com/design/0DzeSIebLkugrNq00bVcSF/Untitled?node-id=0-1&t=Gd1BAF2dvagKk23V-1
 (the image will be filled in later after i build it in real life.)
 ![Design](https://github.com/12zcab/Handheld-Z80-Retro-Computer/blob/main/img/design.png)
-![Route](https://github.com/12zcab/Handheld-Z80-Retro-Computer/blob/main/img/Route.png)
-![PCB](https://github.com/12zcab/Handheld-Z80-Retro-Computer/blob/main/img/PCB.png)
+![Route](https://github.com/12zcab/Handheld-Z80-Retro-Computer/blob/main/img/RouteNewest.png)
+![PCB](https://github.com/12zcab/Handheld-Z80-Retro-Computer/blob/main/img/PCBNewest.png)
 
 # What is this?
 This is a portable handheld computer made with z80 customized for assembly language programming and simplified system for educational purpose.

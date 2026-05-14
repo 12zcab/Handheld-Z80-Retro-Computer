@@ -230,3 +230,6 @@ the Interrupt Signals and the ReadWriteChipSelect signals are still hard to rout
 
 Day 17 12/5/2026
 humm actually the current layout is still not yet the best one but i think i will keep the current one and try to add more space for me to route by pushing a bit the edges :D
+
+Day 1819 13-14/5/2026
+FINISHED ROUTING PART and Re-Upload for review again :D
