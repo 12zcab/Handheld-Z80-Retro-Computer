@@ -4,7 +4,7 @@
 [![AssemblyScript](https://img.shields.io/badge/AssemblyScript-007AAC?logo=assemblyscript&logoColor=fff)](#)
 [![C++](https://img.shields.io/badge/C++-%2300599C.svg?logo=c%2B%2B&logoColor=white)](#)
 [![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?logo=webassembly&logoColor=fff)](#)
-[![Kicad](https://img.shields.io/badge/KiCad-8.0 %7C 9.0 %7C 10.0-blue)](#)
+[![Kicad](https://img.shields.io/badge/KiCad-8.0%7C9.0%7C10.0-blue)](#)
 [![Esp32](https://img.shields.io/badge/Platform-ESP32-informational?style=flat&logo=Arduino&logoColor=white&color=00979D)](#)
 
 Hello Im 12zcab from Hong Kong and I designed this Z80 Retro Computer :DD
@@ -19,15 +19,15 @@ For FallOut Zine Page Design: https://www.figma.com/design/0DzeSIebLkugrNq00bVcS
 This is a portable handheld computer made with z80 customized for assembly language programming and simplified system for educational purpose.
 
 The computer contains: 
-a Z80 cpu
-a SPI screen
-an Esp32 C3 Supermini
-2 EEPROM slot
-a RAM slot
-a buzzer
-some leds
-2 7 segments
-An extendable port for IO.
+- a Z80 cpu
+- a SPI screen
+- an Esp32 C3 Supermini
+- 2 EEPROM slot
+- a RAM slot
+- a buzzer
+- some leds
+- 2 7 segments
+- An extendable port for IO.
 
 The computer support Dual-UART communication, one with the Esp32 and one for extending.
 
