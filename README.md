@@ -1,3 +1,5 @@
+# A Handheld Z80 Retro Computer
+
 Hello Im 12zcab from Hong Kong and I designed this Z80 Retro Computer :DD
 
 For FallOut Zine Page Design: https://www.figma.com/design/0DzeSIebLkugrNq00bVcSF/Untitled?node-id=0-1&t=Gd1BAF2dvagKk23V-1
@@ -8,13 +10,29 @@ For FallOut Zine Page Design: https://www.figma.com/design/0DzeSIebLkugrNq00bVcS
 
 # What is this?
 This is a portable handheld computer made with z80 customized for assembly language programming and simplified system for educational purpose.
-The computer comtains a Z80 cpu,a SPI screen,a Esp32 C3 Supermini and 2 EEPROM slot,a RAM slot,a buzzer,some leds,2 7segments and a extendable port for IO.
+
+The computer contains: 
+a Z80 cpu
+a SPI screen
+an Esp32 C3 Supermini
+2 EEPROM slot
+a RAM slot
+a buzzer
+some leds
+2 7 segments
+An extendable port for IO.
+
 The computer support Dual-UART communication, one with the Esp32 and one for extending.
+
 # What it does?
-It just let you run simple programs on it and let you bring it anywhere!
-My final goal is to write a fully functional Operating System and make it as simple as possible on this computer!
-With the ESP32 C3 Supermini connected through UART,you can draw on SPI screen and output characters just like connected to a VT100 Terminal (for old computers)
-With the Buzzer,7segments and the keyboard also with the extendable port,you can build alsome retro coding projects on this old-fashion Cyberdeck :D
+- run simple programs on it
+- bring it anywhere and show it to your friend
+- draw on SPI screen and output characters just like connected to a VT100 Terminal
+
+With the Buzzer,7segments and the keyboard also with the extendable port,you can build alsome retro coding projects on this old-fashion Cyberdeck :D 
+# My goal
+write a fully functional Operating System and make it as simple as possible on this computer or atleast make it self-programmable
+
 # Why it exists?
 Erm it all started when I found a video about old pokemon games and i started to play Gen 1 pokemon games on emulators(Red Version).
 I found it a really amazing experience to have play a game with greyscale and 8 bit musics.
@@ -26,7 +44,7 @@ I recently found Fallout Event on HackClub and instantly found this a great oppe
 
 
 # Basic Structure
-##Memory Map
+## Memory Map
 | Address | Compoenent | Function |
 |----|----|----|
 |0x0000 - 0x7FFF| EEPROM | Executable Code of Operating System |
