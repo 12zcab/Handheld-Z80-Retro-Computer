@@ -49,6 +49,19 @@ Then I learnt the gbz80 instruction set,also the boot rom of the gameboy,then al
 I followed a youtube video and built my first z80 computer and started to do a few assembly programming on it and yah its really fun [Ytlink](https://youtu.be/A0VpPRWrqHc?si=ajm_OGpBwFbzzyzW).
 I recently found Fallout Event on HackClub and instantly found this a great oppertunity to design my own real z80 computer that is simple and workable.
 
+# How to assemble?
+If u want, u can order PCBA service from JLCPCB for pre-SMT-soldering
+1.Solder the IC Socket,2.54 PinSocket and PinHeaders
+2.Check if the resistor is working
+3.Check if the ESP32 is working
+4.Check if the Z80 is working(IMPORTANT) as once I bought a Z80 with broken ~{Write} Pinout.
+5.Check if the Crystal is working
+7.Solder the SMT components if u haven't
+8.Put all the ICs into the IC socket respectively
+9.CHECK IF 5V and GND is SHORTED (IMPORTANT!!!!!!!)
+10.Prepare a EEPROM with simple Z80 Programs(Such as HALTING in a Specific Address) and check if the EEPROM and SRAM slot are working.
+11.Use the Code in User Manual and try every single Function of this board :D
+12.May be erm message me in Discord @12zcab and show me your cool build \(oWo)/
 
 # Basic Structure
 ## Memory Map
