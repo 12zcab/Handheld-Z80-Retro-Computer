@@ -1,45 +1,23 @@
-# A Handheld Z80 Retro Computer
-[![Figma](https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white)](#)
-[![ReadMe](https://img.shields.io/badge/ReadMe-018EF5?logo=readme&logoColor=fff)](#)
-[![AssemblyScript](https://img.shields.io/badge/AssemblyScript-007AAC?logo=assemblyscript&logoColor=fff)](#)
-[![C++](https://img.shields.io/badge/C++-%2300599C.svg?logo=c%2B%2B&logoColor=white)](#)
-[![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?logo=webassembly&logoColor=fff)](#)
-[![Kicad](https://img.shields.io/badge/KiCad-8.0%7C9.0%7C10.0-blue)](#)
-[![Esp32](https://img.shields.io/badge/Platform-ESP32-informational?style=flat&logo=Arduino&logoColor=white&color=00979D)](#)
-
 Hello Im 12zcab from Hong Kong and I designed this Z80 Retro Computer :DD
 
-For FallOut Zine Page Design: https://www.figma.com/design/0DzeSIebLkugrNq00bVcSF/Untitled?node-id=0-1&t=Gd1BAF2dvagKk23V-1
-(the image will be filled in later after i build it in real life.)
+# Zine Page
+https://www.figma.com/design/0DzeSIebLkugrNq00bVcSF/Untitled?node-id=0-1&t=Gd1BAF2dvagKk23V-1
+![Zine](https://github.com/12zcab/Handheld-Z80-Retro-Computer/blob/main/img/Zine.png)
+
+# Images
 ![Design](https://github.com/12zcab/Handheld-Z80-Retro-Computer/blob/main/img/design.png)
 ![Route](https://github.com/12zcab/Handheld-Z80-Retro-Computer/blob/main/img/RouteNewest.png)
 ![PCB](https://github.com/12zcab/Handheld-Z80-Retro-Computer/blob/main/img/PCBNewest.png)
 
 # What is this?
 This is a portable handheld computer made with z80 customized for assembly language programming and simplified system for educational purpose.
-
-The computer contains: 
-- a Z80 cpu
-- a SPI screen
-- an Esp32 C3 Supermini
-- 2 EEPROM slot
-- a RAM slot
-- a buzzer
-- some leds
-- 2 7 segments
-- An extendable port for IO.
-
+The computer comtains a Z80 cpu,a SPI screen,a Esp32 C3 Supermini and 2 EEPROM slot,a RAM slot,a buzzer,some leds,2 7segments and a extendable port for IO.
 The computer support Dual-UART communication, one with the Esp32 and one for extending.
-
 # What it does?
-- run simple programs on it
-- bring it anywhere and show it to your friend
-- draw on SPI screen and output characters just like connected to a VT100 Terminal
-
-With the Buzzer,7segments and the keyboard also with the extendable port,you can build alsome retro coding projects on this old-fashion Cyberdeck :D 
-# My goal
-write a fully functional Operating System and make it as simple as possible on this computer or atleast make it self-programmable
-
+It just let you run simple programs on it and let you bring it anywhere!
+My final goal is to write a fully functional Operating System and make it as simple as possible on this computer!
+With the ESP32 C3 Supermini connected through UART,you can draw on SPI screen and output characters just like connected to a VT100 Terminal (for old computers)
+With the Buzzer,7segments and the keyboard also with the extendable port,you can build alsome retro coding projects on this old-fashion Cyberdeck :D
 # Why it exists?
 Erm it all started when I found a video about old pokemon games and i started to play Gen 1 pokemon games on emulators(Red Version).
 I found it a really amazing experience to have play a game with greyscale and 8 bit musics.
@@ -49,22 +27,9 @@ Then I learnt the gbz80 instruction set,also the boot rom of the gameboy,then al
 I followed a youtube video and built my first z80 computer and started to do a few assembly programming on it and yah its really fun [Ytlink](https://youtu.be/A0VpPRWrqHc?si=ajm_OGpBwFbzzyzW).
 I recently found Fallout Event on HackClub and instantly found this a great oppertunity to design my own real z80 computer that is simple and workable.
 
-# How to assemble?
-If u want, u can order PCBA service from JLCPCB for pre-SMT-soldering
-1.Solder the IC Socket,2.54 PinSocket and PinHeaders
-2.Check if the resistor is working
-3.Check if the ESP32 is working
-4.Check if the Z80 is working(IMPORTANT) as once I bought a Z80 with broken ~{Write} Pinout.
-5.Check if the Crystal is working
-7.Solder the SMT components if u haven't
-8.Put all the ICs into the IC socket respectively
-9.CHECK IF 5V and GND is SHORTED (IMPORTANT!!!!!!!)
-10.Prepare a EEPROM with simple Z80 Programs(Such as HALTING in a Specific Address) and check if the EEPROM and SRAM slot are working.
-11.Use the Code in User Manual and try every single Function of this board :D
-12.May be erm message me in Discord @12zcab and show me your cool build \(oWo)/
 
 # Basic Structure
-## Memory Map
+##Memory Map
 | Address | Compoenent | Function |
 |----|----|----|
 |0x0000 - 0x7FFF| EEPROM | Executable Code of Operating System |

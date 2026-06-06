@@ -234,5 +234,5 @@ humm actually the current layout is still not yet the best one but i think i wil
 Day 1819 13-14/5/2026
 FINISHED ROUTING PART and Re-Upload for review again :D
 
-Day 20 2/6/2026
-Fixed some requirements thing and Prepare for resubmit
+Day 20 6/6/2026
+Edited the BOM and resubmitted for Review
