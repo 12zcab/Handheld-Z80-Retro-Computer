@@ -4,7 +4,18 @@
 
 ;CONFIGS
 LENGTH EQU  32
-
+reset_buffer:   PUSH DE                       ;Preserve DE BC
+                PUSH BC  
+                LD (HL)," "                   ;Remove Current Cursor
+                CALL PRINT_BUFFER             ;Update to remove the Cursor First
+                LD HL, LINE_BUFFER_16_DEFAULT ;Load the Resource Address
+                LD DE, LINE_BUFFER_16         ;Load the Destination Address
+                LD BC, 32                     ;Data Length
+                LDIR                          ;Load with Increase Pointer
+                POP BC                        ;Restore BC
+                POP DE                        ;Restore DE
+                LD HL,Line_Buffer_16          ;Restore Pointer
+                RET
 print_buffer:   PUSH HL              ;Preserve HL,BC,AF
                 PUSH BC
                 PUSH AF
@@ -13,8 +24,13 @@ print_buffer:   PUSH HL              ;Preserve HL,BC,AF
                 LD A,0x0D            ;Move back to the beginning of the line
                 OUT (1),A            ;Output the CR character
 print_loop:     LD A,(HL)            ;Load Character from Buffer
-                OUT (1),A            ;Output Character
-                INC HL               ;Increase Buffer Pointer
+                CP "|"               ;Check if it is a Cursor
+                JR NZ,PRT_Continue   ;If No,Skip
+                BIT 6,C              ;If Yes,Check the bit 6 of C (C represents numbers of ticks of the loop from 0-255)
+                JR NZ,PRT_CONTINUE   ;If it is 1,Print it out
+                JR PRT_Finally       ;If not,Skip it! (Actually i should print space but nvm as currently there will be nothing behind the pointer)
+PRT_Continue:   OUT (1),A            ;Output Character
+PRT_Finally:    INC HL               ;Increase Buffer Pointer
                 DEC B                ;Decrease Counter
                 JR NZ,print_loop     ;Check Counter and continue loop if nonZero
                 POP AF               ;Restore AF BC HL
@@ -24,9 +40,10 @@ print_loop:     LD A,(HL)            ;Load Character from Buffer
 init:           LD SP,$FFFF          ;Init Stack
                 LD HL,LINE_BUFFER_16 ;Init Pointer
                 LD DE,LINE_BUFFER_16 + LENGTH - 1     ;Limit the Character Per Line
+                CALL reset_buffer    ;Init Buffer
                 JP main
 main:           CALL PRINT_BUFFER  ;Update Console
-
+                INC C
                 IN A,(0)           ;Check if Incoming Character
                 AND 1              ;Check the LSB
                 JR Z,main          ;Skip Loop If Nothing is comming from Console :|
@@ -43,7 +60,13 @@ main:           CALL PRINT_BUFFER  ;Update Console
                 DEC HL             ;Decrease the Buffer Pointer Address
                 LD (HL),"|"        ;Replace with the "|" symbol
                 JR main            ;Continue the Loop as BackSpace is already handled
-ContinueSpecM1: EX DE,HL           ;Exchange HL and DE for Difference Calculation
+ContinueSpecM1: CP 0x0D            ;Check if its CR (Enter)
+                JR NZ,ContinueSpecM2 ;If Not,Continue!
+                CALL reset_buffer  ;If Yes,Reset Buffer
+                LD A,0x0A          ;Do a New Line!
+                OUT (1),A          ;Output \n
+                JP main            ;Skip the unnessary checks below
+ContinueSpecM2: EX DE,HL           ;Exchange HL and DE for Difference Calculation
                 PUSH HL            ;Preserve HL
                 AND A              ;Clear Flag
                 SBC HL,DE          ;to HL-DE (but it was exchanged so its actually DE-HL)
@@ -56,12 +79,10 @@ ContinueSpecM1: EX DE,HL           ;Exchange HL and DE for Difference Calculatio
                 JP main            ;LOOP
 .ent init             ;Boot in INIT (For Better Compatibility,put init onto 0x0000 for CP/M etc. execution)
 .org 0x8000           ;RAM Part
-Line_Buffer_16:    DB "|"," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "  ;Default Line_Buffer
-
+Line_Buffer_16:        DB " "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "  ;Line_Buffer
+Line_Buffer_16_Default:DB "|"," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "  ;Default Line Buffer Content for using LDIR to clear it anytime :O
 
 ;I think I done enough today :)
-;Next time i will do the Enter and also some erm address editing Command
-
 ;All Command i want:
 ;W HEX4DIGITADDRESS HEX2DIGITDATA     for writing into ram
 ;R HEX4DIGITADDRESS                   for reading the RAM onto screen
