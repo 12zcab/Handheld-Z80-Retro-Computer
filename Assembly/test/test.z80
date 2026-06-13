@@ -1,0 +1,17 @@
+.cpu Z80
+.org 0x8000
+.engine test             ; links to hello.emu
+
+Hello_World: DB 'H','E',"L","L","O"," ","W","O","R","L","D","!"
+Print:  OUT (1), A
+        RET
+main:   LD B,0x0C
+        LD HL,Hello_World
+loop:   LD A,(HL)
+        call Print
+        INC HL
+        dec B
+        jr NZ,loop
+        HALT
+
+.ent main

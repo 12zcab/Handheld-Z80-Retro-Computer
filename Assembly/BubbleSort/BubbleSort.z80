@@ -1,0 +1,99 @@
+.cpu Z80
+.org 0x8000
+.engine test
+
+Original_Data:  DB 146,198,156,34,168,219,237,126,112,95,113,188,250,81,202,172
+Processed_Data: DB 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+Print_A_As_HEX:
+                PUSH AF
+                RRCA
+                RRCA
+                RRCA
+                RRCA
+                AND 15
+                CP 10
+                JR C, High_Digit_0_9
+                ADD A, 55           
+                JR High_Print
+High_Digit_0_9:
+                ADD A, 48           
+High_Print:
+                OUT (1), A
+
+                POP AF
+                AND 15
+                CP 10
+                JR C, Low_Digit_0_9
+                ADD A, 55           
+                JR Low_Print
+Low_Digit_0_9:
+                ADD A, 48           
+Low_Print:
+                OUT (1), A
+                RET
+
+Print_Array:
+                PUSH HL
+                PUSH BC
+                LD HL, Processed_Data
+                LD B, 16
+Print_Loop:     LD A, (HL)
+                PUSH BC
+                CALL Print_A_As_HEX
+                POP BC
+                INC HL
+                DEC B
+                JR NZ, Print_Loop
+
+                LD A, 10            
+                OUT (1), A
+                POP BC
+                POP HL
+                RET
+
+main:
+                LD HL, Original_Data
+                LD DE, Processed_Data
+                LD BC, 16
+                LDIR                
+
+                CALL Print_Array
+
+Sort_Outer_Loop:
+                LD C, 0             
+                LD HL, Processed_Data
+                LD B, 15            
+
+Sort_Inner_Loop:
+                LD A, (HL)
+                INC HL
+                LD E, (HL)          
+                CP E                
+                JR Z, No_Swap       
+                JR C, No_Swap       
+
+                LD (HL), A          
+                DEC HL
+                LD (HL), E          
+                INC HL
+                LD C, 1             
+
+No_Swap:
+                DEC B
+                JR NZ, Sort_Inner_Loop
+
+                LD A, C
+                CP 0
+                JR Z, Done          
+
+                PUSH BC             
+                CALL Print_Array    
+                POP BC
+                JR Sort_Outer_Loop  
+
+Done:
+                CALL Print_Array    
+                HALT
+
+.ent main

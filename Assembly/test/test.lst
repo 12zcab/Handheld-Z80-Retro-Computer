@@ -1,0 +1,27 @@
+0000                          .CPU   Z80   
+8000                          .ORG   0x8000   
+8000                          .ENGINE   test   ; links to hello.emu
+8000                             ; 
+8000   48 45 4C 4C 4F 20 57 4F 52 4C 44 21 HELLO_WORLD:   DB   "H","E","L","L","O"," ","W","O","R","L","D","!"   
+800C   D3 01        PRINT:    OUT   (1),A   
+800E   C9                     RET      
+800F   06 0C        MAIN:     LD   B,0x0C   
+8011   21 00 80               LD   HL,Hello_World   
+8014   7E           LOOP:     LD   A,(HL)   
+8015   CD 0C 80               CALL   Print   
+8018   23                     INC   HL   
+8019   05                     DEC   B   
+801A   20 F8                  JR   NZ,loop   
+801C   76                     HALT      
+801D                             ; 
+801D                          .ENT   main   
+
+
+HELLO_WORLD:        8000 DEFINED AT LINE 5
+                    > USED AT LINE 9
+PRINT:              800C DEFINED AT LINE 6
+                    > USED AT LINE 11
+MAIN:               800F DEFINED AT LINE 8
+                    > USED AT LINE 17
+LOOP:               8014 DEFINED AT LINE 10
+                    > USED AT LINE 14
