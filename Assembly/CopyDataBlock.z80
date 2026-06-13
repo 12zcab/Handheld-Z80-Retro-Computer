@@ -1,0 +1,21 @@
+.ORG   0000h
+LD   A,1        ; Prepare Data
+LD   (0100h),A
+INC  A
+LD   (0101h),A
+CALL LFETR
+HALT
+
+LFETR:
+LD   HL,0100h   ; Load HL with the source start address (0x10)
+LD   DE,0110h   ; Load DE with the destination start address (0x20)
+LD   B,16   ; Set the loop counter to 16 bytes (0x10 to 0x1F)
+COPY_LOOP:      
+LD   A,(HL)   ; Load the byte from the address in HL into the Accumulator
+LD   (DE),A   ; Store that byte into the address in DE
+INC   HL   ; Increment HL to point to the next source byte
+INC   DE   ; Increment DE to point to the next destination byte
+DJNZ   COPY_LOOP   ; Decrement B and jump back to COPY_LOOP if B is not 0
+RET
+
+;Tested in ASM80.com
