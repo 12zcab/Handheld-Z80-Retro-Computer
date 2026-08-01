@@ -90,6 +90,7 @@ out (BANK_REG), a
 ld a, FEh
 out (BANK_REG), a
 ```
+# ALERT DURING BUILDING STAGE I FOUND THIS CODE IS ACTUALLY WRONG, WE SHOULD LOAD FF40 to BC first then OUT (C),A
 
 # DS12885+ Clock Module Programming [Reference Document](https://www.analog.com/media/en/technical-documentation/data-sheets/DS12885-DS12C887A.pdf)
 It's on the IO  Port of the Z80.
